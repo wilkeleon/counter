@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Counter</title>
+    <style>
+      .main-div {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10rem;
+      }
+      h2 {
+        font-size: 5rem;
+        text-align: center;
+        margin: 0;
+      }
+      h1 {
+        font-size: 4rem;
+        text-align: center;
+        margin-top: 2rem;
+      }
+
+      button {
+        cursor: pointer;
+      }
+
+      .btn-container {
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main-div">
+      <section>
+        <h2>Counter</h2>
+        <h1 id="counter">0</h1>
+        <div class="btn-container">
+          <button onclick="decrease()">Decrease</button>
+          <button onclick="reset()">Reset</button>
+          <button onclick="increase()">Increase</button>
+        </div>
+      </section>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
